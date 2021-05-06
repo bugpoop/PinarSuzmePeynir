@@ -41,7 +41,7 @@ namespace WinFormsApp1
                 int hour = DateTime.Now.Hour;
                 int minute = DateTime.Now.Minute;
              
-                if (hour == 09 && minute > 30) 
+                if (hour == 9 && minute > 30) 
                 { 
                    break;
                 }
