@@ -60,72 +60,19 @@ namespace WinFormsApp1
 
 
 // this is a terrible way of doing this. Too bad!
-
-            // joining the lesson
-            driver.Navigate().GoToUrl("https://eba.gov.tr/#/anasayfa");
-            driver.FindElement(By.XPath("/html/body/app-root/app-anasayfa-page/div[2]/div/div/div[1]/div[2]/div[3]/div[3]/a[2]")).Click();
-            Thread.Sleep(3000);
-            driver.FindElement(By.XPath(("//*[@id=\"joinMeeting\"]"))).Click();
-            Thread.Sleep(3000);
-            driver.FindElement(By.Id("join")).Click();
-            Thread.Sleep(605000);
-            // joining the lesson
-            driver.Navigate().GoToUrl("https://eba.gov.tr/#/anasayfa");
-            driver.FindElement(By.XPath("/html/body/app-root/app-anasayfa-page/div[2]/div/div/div[1]/div[2]/div[3]/div[3]/a[2]")).Click();
-            Thread.Sleep(3000);
-            driver.FindElement(By.XPath(("//*[@id=\"joinMeeting\"]"))).Click();
-            Thread.Sleep(3000);
-            driver.FindElement(By.Id("join")).Click();
-            Thread.Sleep(605000);
-            // joining the lesson
-            driver.Navigate().GoToUrl("https://eba.gov.tr/#/anasayfa");
-            driver.FindElement(By.XPath("/html/body/app-root/app-anasayfa-page/div[2]/div/div/div[1]/div[2]/div[3]/div[3]/a[2]")).Click();
-            Thread.Sleep(3000);
-            driver.FindElement(By.XPath(("//*[@id=\"joinMeeting\"]"))).Click();
-            Thread.Sleep(3000);
-            driver.FindElement(By.Id("join")).Click();
-            Thread.Sleep(605000);
-            // joining the lesson
-            driver.Navigate().GoToUrl("https://eba.gov.tr/#/anasayfa");
-            driver.FindElement(By.XPath("/html/body/app-root/app-anasayfa-page/div[2]/div/div/div[1]/div[2]/div[3]/div[3]/a[2]")).Click();
-            Thread.Sleep(3000);
-            driver.FindElement(By.XPath(("//*[@id=\"joinMeeting\"]"))).Click();
-            Thread.Sleep(3000);
-            driver.FindElement(By.Id("join")).Click();
-            Thread.Sleep(605000);
-            // joining the lesson
-            driver.Navigate().GoToUrl("https://eba.gov.tr/#/anasayfa");
-            driver.FindElement(By.XPath("/html/body/app-root/app-anasayfa-page/div[2]/div/div/div[1]/div[2]/div[3]/div[3]/a[2]")).Click();
-            Thread.Sleep(3000);
-            driver.FindElement(By.XPath(("//*[@id=\"joinMeeting\"]"))).Click();
-            Thread.Sleep(3000);
-            driver.FindElement(By.Id("join")).Click();
-            Thread.Sleep(605000);
-            // joining the lesson
-            driver.Navigate().GoToUrl("https://eba.gov.tr/#/anasayfa");
-            driver.FindElement(By.XPath("/html/body/app-root/app-anasayfa-page/div[2]/div/div/div[1]/div[2]/div[3]/div[3]/a[2]")).Click();
-            Thread.Sleep(3000);
-            driver.FindElement(By.XPath(("//*[@id=\"joinMeeting\"]"))).Click();
-            Thread.Sleep(3000);
-            driver.FindElement(By.Id("join")).Click();
-            Thread.Sleep(605000);
-            // joining the lesson
-            driver.Navigate().GoToUrl("https://eba.gov.tr/#/anasayfa");
-            driver.FindElement(By.XPath("/html/body/app-root/app-anasayfa-page/div[2]/div/div/div[1]/div[2]/div[3]/div[3]/a[2]")).Click();
-            Thread.Sleep(3000);
-            driver.FindElement(By.XPath(("//*[@id=\"joinMeeting\"]"))).Click();
-            Thread.Sleep(3000);
-            driver.FindElement(By.Id("join")).Click();
-            Thread.Sleep(605000);
-            // joining the lesson
-            driver.Navigate().GoToUrl("https://eba.gov.tr/#/anasayfa");
-            driver.FindElement(By.XPath("/html/body/app-root/app-anasayfa-page/div[2]/div/div/div[1]/div[2]/div[3]/div[3]/a[2]")).Click();
-            Thread.Sleep(3000);
-            driver.FindElement(By.XPath(("//*[@id=\"joinMeeting\"]"))).Click();
-            Thread.Sleep(3000);
-            driver.FindElement(By.Id("join")).Click();
-            Thread.Sleep(605000);
-
+            
+            // do not look at any earlier commits.
+            for(int i=0; i<8; i++)
+            {
+                // joining the lesson
+                driver.Navigate().GoToUrl("https://eba.gov.tr/#/anasayfa");
+                driver.FindElement(By.XPath("/html/body/app-root/app-anasayfa-page/div[2]/div/div/div[1]/div[2]/div[3]/div[3]/a[2]")).Click();
+                Thread.Sleep(3000);
+                driver.FindElement(By.XPath(("//*[@id=\"joinMeeting\"]"))).Click();
+                Thread.Sleep(3000);
+                driver.FindElement(By.Id("join")).Click();
+                Thread.Sleep(605000);   
+            }
 
         }
     }
